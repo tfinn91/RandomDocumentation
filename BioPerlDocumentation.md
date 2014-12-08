@@ -131,4 +131,14 @@ Your choice:
 Cool! We are in!! Hit exit to leave the clustalw program. You will not need to interact with this program as BioPerl will do it for you.
 
 
+##Run the Program
+
+Inside the file directory for `Hybrid Species Research` run the following to execute the program:
+
+```bash
+perl alignment_based.pl
+```
+
+
+
 
