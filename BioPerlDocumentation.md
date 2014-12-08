@@ -24,8 +24,8 @@ $ perlbrew switch perl-5.20.1
 To do all of the installation, we will be using CPAN (Comprehensive Perl Archive Network). First, let's make sure that CPAN is installed and up to date:
 
 ```bash
-$ install cpan
-$ reload cpan
+$ install CPAN
+$ reload CPAN
 ```
 
 Then we can install the necessary applications with the following (the install could take a few minutes):
