@@ -1,7 +1,7 @@
 Hybrid Species -- Documentation
 ==============================================
 
-The following documentation was written with Mac OS X and UNIX in mind. I encourage you to unzip the file into your `/Documents` folder as this tutorial will work based on storing the files there (ex `/Documents/Hybrid Species Research`).
+The following documentation was written with Mac OS X and UNIX in mind. I encourage you to unzip the Hybrid Species Research.zip file into your `/Documents` folder as this tutorial will work based on storing the files there (ex `/Documents/Hybrid Species Research`).
 
 The first thing we want to do is install the latest version of perl. To do this we will use Perlbrew to do the installation:
 
@@ -72,9 +72,9 @@ Now that we have all the dependencies installed, we can install clustalw, which 
 
 ##Using Clustalw 
 
-Included with the files is a Clustalw executable located in `/Documents/Hybrid Species Research/bin/clustalw-2.1-macosx`. The file is called `clustalw2`. Our program runs with the file called `clustalw`. 
+Included is a Clustalw executable located in `/Documents/Hybrid Species Research/bin/clustalw-2.1-macosx`. The file is called `clustalw2`. Our program looks for the executable named `clustalw`. 
 
-Rename the file to `clustalw`. You can right click and select rename to perform this action or you can do it at the command line after navigating to the Hybrid Species Research folder:
+Rename `clustalw2` to `clustalw`. You can right click and select rename to perform this action or you can do it at the command line after navigating to the Hybrid Species Research folder:
 
 ```bash
 $ cd bin/clustalw-2.1-macosx
@@ -96,13 +96,13 @@ $ cp Documents/Hybrid\ Species\ Research/bin/clustalw-2.1-macosx/clustalw .
 
 This command copies the executable from the original location into the current directory (.) which should be `/Users/YourUsername/clustalw`.
 
-Now lets add `clustalw` to your path. In the following, I use Nano to edit and save files. Use whatever text editor you like to edit the files.
+Now lets add `clustalw` to your path. In the following, I use Nano to edit. Use whatever text editor you like.
 
 ```bash
 $ sudo nano ~/.bash_profile
 ```
 
-Add the following line to the file and then hit `ctrl + x` to exit. Save the changes by hitting `y`. Finally hit `enter` to save the file.
+Add the following line and then hit `ctrl + x` to exit. Save the changes by hitting `y`. Finally hit `enter` to save.
 
 ```
 export PATH=$PATH:~/clustalw/
@@ -139,7 +139,7 @@ Cool! We are in!! Hit exit to leave the clustalw program. You will not need to i
 
 ##Run the Program
 
-Inside the file directory for `Hybrid Species Research` run the following to execute the program:
+Inside the directory for `Hybrid Species Research` run the following to execute the program:
 
 ```bash
 perl alignment_based.pl
