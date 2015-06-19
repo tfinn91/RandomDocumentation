@@ -17,3 +17,39 @@ In order to get started with CFI's SharePoint suite, navigate, in Internet Explo
 https://collab.mayo.edu/team/CFI/SitePages/Home.aspx
 ```
 
+Once you are at the main CFI SharePoint site, a list of subsites will be visible at the top of the screen just above the "Center for Innovation" header. We need to create a specific subsite to host our form page.
+In order to create a subsite of the CFI's site, do the following:
+
+```
+CREATE NEW SUBSITE
+```
+
+Once we have the subsite in place, navigate to the subsite. The subsites are extremely easiy to navigate between as the root URL remains the same. For example, my subsite in this instance is located at:
+
+```
+https://collab.mayo.edu/team/CFI/finntest
+```
+
+This link should take you to the home page of the specific subsite I am using under the CFI SharePoint site. Now that there is a blank site set up, it can be edited by:
+
+```
+Page ---> Edit
+```
+
+This will bring editing tools onto the top of the page and you will have full control over editing the specific site. You may view and edit the source code  (HTML) by clicking the `Edit Source` button in the Markup section of the top ribbon. For more detailed information on editing the site, please refer to the [Microsoft Custom SharePoint Sites][1] page.
+
+
+
+
+###References
+1. [Microsoft Custom SharePoint Sites][1]
+
+
+[1]: https://msdn.microsoft.com/en-us/library/dd583126(v=office.11).aspx "Editing Microsoft SharePoint Sites"
+
+
+
+
+
+
+
