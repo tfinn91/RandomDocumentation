@@ -38,6 +38,17 @@ Page ---> Edit
 
 This will bring editing tools onto the top of the page and you will have full control over editing the specific site. You may view and edit the source code  (HTML) by clicking the `Edit Source` button in the Markup section of the top ribbon. For more detailed information on editing the site, please refer to the [Microsoft Custom SharePoint Sites][1] page.
 
+However, because what we are creating requires tools beyond the scope of the SharePoint web-application, we need to use the Microsoft SharePoint Designer application.
+
+###Dowloading Microsoft Sharepoint Designer
+
+Request Mayo access
+download from microsoft and install
+NOW STUCK WITH USER PERMISSIONS
+
+
+
+
 
 
 
