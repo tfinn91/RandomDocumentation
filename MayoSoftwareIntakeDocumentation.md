@@ -44,8 +44,26 @@ However, because what we are creating requires tools beyond the scope of the Sha
 
 Request Mayo access
 download from microsoft and install
-NOW STUCK WITH USER PERMISSIONS
+**CURRENT STUCK POINT**
 
+
+In order to download and install Microsoft SharePoint Designer, you must first request access to uninstalling and installing applications on the computer. As you only have one hour with install/uninstall permissions, I reccommend downloading and saving the SharePoint Designer file before actually requesting access and installing. The download is around 250MB and, depending on the network, can take some time to download. So, to download, navigate to 
+```
+https://www.microsoft.com/en-us/download/details.aspx?id=35491
+```
+
+and follow the on-screen directions to download the file. When it prompts you, **make sure you save the file instead of opening it**. If you choose to open the file you will get an error saying you do not have correct permissions. 
+
+Once the file has downloaded entirely, it is time to request the hour of local administrator permissions. To do this, navigate to the **DO THIS ON PC**. This will automatically grant permissions for an hour. The computer will prompt you to log off and then log in again in order for the changes to take effect. Once you log back in do the following:
+
+```
+Click Start
+Click <USERNAME>
+Click on Downloads on the left-most column in the window that appears
+Double click the Microsoft SharePoint Designer download that you just downloaded
+```
+ 
+This should start the installation process. Microsoft SharePoint Designer is fairly straightforward to install, so just follow the on screen directions **ANYTHING SPECIFIC HERE???**
 
 
 
