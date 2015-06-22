@@ -55,7 +55,8 @@ Once selected, click Next at the bottom of the screen
 The download will start
 ```
 
-```A prompt will be displayed at the bottom of the screen
+```
+A prompt will be displayed at the bottom of the screen
 Make sure that you **SAVE** the file instead of selecting Run
 ```
 
